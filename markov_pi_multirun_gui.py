@@ -14,7 +14,7 @@ class DirectPi(Frame):
         self.height = 400
         self.y = 0
         self.x = self.width
-        self.delta = self.width/10
+        self.delta = self.width/5
         self.parent = parent
         self.pebbleRadius = 10
         self.timeout = 1.0/3
